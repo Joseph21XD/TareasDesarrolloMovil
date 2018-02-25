@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+	//comentario solo para ejemplo de github.
         Spinner spin = (Spinner) findViewById(R.id.spinner1);
         Spinner spin2 = (Spinner) findViewById(R.id.spinner2);
         ArrayAdapter spinner_adapter = ArrayAdapter.createFromResource( this, R.array.paises , android.R.layout.simple_spinner_item);
